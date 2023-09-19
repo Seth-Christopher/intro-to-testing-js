@@ -29,3 +29,7 @@ function isEven (input) {
 function isVowel (input){
     return ("aeiouAEIOU".indexOf(input) != -1);
 }
+
+function add (a, b){
+    return parseInt(a) + parseInt(b);
+}
